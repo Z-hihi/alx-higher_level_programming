@@ -2,8 +2,11 @@
 def lookup(obj):
     """ Function return all attributes and methodes
 
-    Arg: classe object
-    Return:
-          retun attributes and methodes
-          """
-          return (dir(obj))
+    Args:
+        obj: classe object
+    Returns:
+        Attributes and methodes
+   """
+
+   return dir(obj)
+
