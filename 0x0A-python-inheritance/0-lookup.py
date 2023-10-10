@@ -1,7 +1,16 @@
-#!/user/bin/python3
-   """classe inherinte"""
+#!/usr/bin/python3
+"""object definition for lookup function"""
 
 
 def lookup(obj):
-    """function return all attribute"""
+    ''' Function that returns the list of available attributes
+        and methods of an object
+
+    Args:
+        obj: instance of the class
+
+    Returns:
+        List of attributes
+    '''
+
     return dir(obj)
