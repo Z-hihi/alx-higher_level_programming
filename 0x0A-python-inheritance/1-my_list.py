@@ -1,5 +1,7 @@
 #!/usr/bin/python3
    """ Classe that inherts the attribute """
+
+
 class MyList(list):
     """ Class that inherits the attributes references of class list
 
